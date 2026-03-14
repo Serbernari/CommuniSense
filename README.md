@@ -64,5 +64,5 @@ npm run dev
 
 ## 🏆 Built With
 
-- **Backend**: FastAPI, Google Gemini 2.5 Flash, Playwright, BeautifulSoup
+- **Backend**: FastAPI, Google Gemini, Playwright, BeautifulSoup
 - **Frontend**: Next.js, Lucide Icons, Vanilla CSS (Glassmorphism)
