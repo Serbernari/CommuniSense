@@ -8,7 +8,7 @@ from google.genai import types
 api_key = os.getenv("GEMINI_API_KEY", os.getenv("GOOGLE_API_KEY", ""))
 client = genai.Client(api_key=api_key)
 
-MODEL_ID = "gemini-2.5-flash"
+MODEL_ID = "gemini-3.1-pro-preview"
 
 async def extract_norms(artifacts: list[dict], concern: str = None) -> dict:
     combined_text = "\n\n".join([f"Source ({a['source']}):\n{a['content']}" for a in artifacts])
